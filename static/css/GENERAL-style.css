@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.hero-frame {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 240px;
+    background: linear-gradient(135deg, #1A249C, #0B1E3B);
+    padding: 20px;
+    height: 100vh;
+}
+
+.hero-logo {
+    padding-bottom: 13px;
+}
+
+.hero-logo > a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title-logo {
+    font-weight: 700;
+    background: linear-gradient(135deg, #F2A7FF, #8A9BFF);
+    font-size: 45px;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtitle-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub1 {
+    color: #F4EEF5;
+    font-size: 14.5px;
+}
+
+.sub2 {
+    color: #F4EEF5;
+    font-size: 14.5px;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.hero-buttons > a {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    padding: 3px;
+}
+
+.hero-buttons > a > span {
+    color: #F4EEF5;
+}
+
+.button-icon {
+    padding-left: 15px;
+}
+
+.button-icon > img {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar-link {
+    background: linear-gradient(135deg, #C985F5, #2038D9);
+    border-radius: 12px;
+    width: 195px;
+    height: 45px;
+}
+
+.hero-current-shift {
+    background: linear-gradient(135deg, #8A9BFF, #2038D9);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: space-between;
+    padding: 20px;
+    height: 135px;
+}
+
+.shift-block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.shift-title {
+    color: #F4EEF5;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.shift-time {
+    color: #F4EEF5;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.shift-start {
+    padding: 5.5px 0 5.5px 0;
+    border-radius: 7px;
+    background: #6ED4F2;
+    color: #F4EEF5;
+    border: none;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.20);
+}
+
