@@ -8,20 +8,25 @@
     font-family: 'Inter', sans-serif;
 }
 
+/* Общий экран */
 .wrapper {
     width: 100vw;
     height: 100vh;
+    background: #F4EEF5;
 }
 
+/* Главный фрейм - dashboard/home */
 .hero-frame {
     display: flex;
     flex-direction: row;
 }
 
+/* Сайдбар */
 .hero-sidebar {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     gap: 8px;
     width: 240px;
     background: linear-gradient(135deg, #1A249C, #0B1E3B);
@@ -29,6 +34,7 @@
     height: 100vh;
 }
 
+/* Логотип CRM-системы */
 .hero-logo {
     padding-bottom: 13px;
 }
@@ -62,6 +68,7 @@
     font-size: 14.5px;
 }
 
+/* Кнопки-направляющие */
 .hero-buttons {
     display: flex;
     flex-direction: column;
@@ -96,6 +103,7 @@
     height: 45px;
 }
 
+/* Текущая смена */
 .hero-current-shift {
     background: linear-gradient(135deg, #8A9BFF, #2038D9);
     width: 100%;
@@ -132,5 +140,35 @@
     color: #F4EEF5;
     border: none;
     box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.20);
+}
+
+/* выйти с системы */
+.hero-logout {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hero-line {
+    width: 195px;
+    height: 1px;
+    background: #F4EEF5;
+}
+
+.button-logout {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 15px;
+    align-items: center;
+}
+
+.button-logout > img {
+    width: 30px;
+    height: 30px;
+}
+
+.button-logout > span {
+    color: #F4EEF5;
 }
 
