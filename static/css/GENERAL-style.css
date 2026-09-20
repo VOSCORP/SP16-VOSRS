@@ -8,6 +8,28 @@
     font-family: 'Inter', sans-serif;
 }
 
+:root {
+    --bg-main: #F4EEF5;
+    --blue-light: #A8DFFF;
+    --blue: #2F7FA7;
+    --blue-dark: #0B1E3B;
+
+    --purple: #8A9BFF;
+    --pink: #F2A7FF;
+    --pink-bright: #FF53D6;
+
+    --cyan: #6ED4F2;
+    --light-cyan: #69D7F2;
+    --purple-dark: #C985F5;
+    --siren: #C985F5;
+
+    --text-main: #0B1E3B;
+    --light-blue-dark: #1A249C;
+    --white: #FFFFFF;
+
+    --b1: #A8DFFF;
+}
+
 /* Общий экран */
 .wrapper {
     width: 100vw;
