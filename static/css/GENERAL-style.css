@@ -185,3 +185,177 @@
     background: #F4EEF5;
     box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.25);
 }
+
+/* mmm */
+.formore > img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Поисковая строка */
+.search-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #E3E3E3;
+    height: 50px;
+    width: 510px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
+}
+.icon-text > img {
+    width: 22px;
+    height: 22px;
+}
+
+.icon-text > span {
+    color: #0B1E3B;
+    font-size: 14px;
+}
+
+.ctrl-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C9C9C9;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.ctrl-block > span {
+    color: #0B1E3B;
+    font-size: 16px;
+    opacity: 76%;
+}
+
+/* часть аккаунтизаций */
+.account-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.notification-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 37px;
+    height: 34px;
+    position: relative;
+}
+
+.notification-nav > img {
+    width: 30px;
+    height: 30px;
+}
+
+.notification-circle {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background: #FF53D6;
+    border-radius: 50%;
+    bottom: 19px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-circle > span {
+    color: #F4EEF5;
+    font-size: 14px;
+}
+
+
+.chats-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 41px;
+    height: 34px;
+    position: relative;
+}
+
+.chats-nav > img {
+    width: 30px;
+    height: 30px;
+}
+
+.chats-circle {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    background: #FF53D6;
+    border-radius: 50%;
+    bottom: 20px;
+    left: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chats-circle > span {
+    color: #F4EEF5;
+    font-size: 14px;
+}
+
+.account-line {
+    width: 2px;
+    height: 50px;
+    background: #5B5E81;
+    opacity: 60%;
+    border-radius: 12px;
+}
+
+.personal-account-bloccInfoBoxCard-OtdelCadrov {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+}
+
+.personal-account-bloccInfoBoxCard-OtdelCadrov > img {
+    width: 45px;
+    height: 45px;
+}
+
+.info-personal {
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+    align-items: center;
+}
+
+.personality {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: center;
+}
+
+.personality > span {
+    color: #0B1E3B;
+    font-size: 16px;
+}
+
+.tochka-nevozvrata {
+    color: #0B1E3B;
+    opacity: 78%;
+}
+
+.info-personal > img {
+    width: 20px;
+    height: 20px;
+}
+
