@@ -31,7 +31,16 @@
     --link-button: #007bff;
 
     /* status-lights */
-    --success: ;
+    --success: #00E51B;
+    --error: #FF0004;
+    --waiting: #FFD900;
+    --undefined: #6B7280;
+    --ny12: #007bff;
+    --obshaga: #C985F5;
+
+    /* неопределил как назвать */
+    --razmetka: #00C016;
+    --f16: #DD00FF;
 }
 
 /* Общий экран */

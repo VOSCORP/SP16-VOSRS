@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .dash-cards {
@@ -18,6 +18,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    height: 140px;
 }
 
 .statCard {
@@ -26,18 +27,62 @@
     background: var(--bg-main);
     box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.20);
     padding: 20px;
-    gap: 8px;
+    gap: 14px;
     border-radius: 13px;
 }
 
-.stat-Icon1 {
+.stat-Icon1, .stat-Icon2, .stat-Icon3, .stat-Icon4, .stat-Icon5, .stat-Icon6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var();
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
 }
 
-.stat-Icon1 > img {
-    width: 35px;
-    height: 35px;
+.stat-Icon1 { background: var(--siren); }
+.stat-Icon2 { background: var(--success); }
+.stat-Icon3 { background: var(--error); }
+.stat-Icon4 { background: var(--waiting); }
+.stat-Icon5 { background: var(--ny12); }
+.stat-Icon6 { background: var(--f16); }
+
+.stat-Icon1 > img, .stat-Icon2 > img, .stat-Icon3 > img, .stat-Icon4 > img, .stat-Icon5 > img, .stat-Icon6 > img {
+    width: 45px;
+    height: 45px;
+}
+
+.stat-info {
+    display: flex;
+    flex-direction: column;
+    gap: 11.5px;
+    align-items: center;
+    color: var(--text-main);
+}
+
+.stat-info > h5 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stat-info > h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.stat-info > h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.stat-text {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.lakokrasochnaya-kraska {
+    color: var(--razmetka);
 }
