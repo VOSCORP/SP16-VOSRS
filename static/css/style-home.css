@@ -86,3 +86,176 @@
 .lakokrasochnaya-kraska {
     color: var(--razmetka);
 }
+
+.giant-collapse-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+}
+
+.left-collapse-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.right-collapse-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.collapse-map-hall {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background: var(--bg-main);
+    border-radius: 15px;
+    box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.20);
+    width: 100%;
+}
+
+.section1-title-trigger {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title-trigger {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.title-trigger > span {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.triggers {
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+
+.triggers > button {
+    padding: 7px 14px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.20);
+}
+
+.unactive {
+    background: color-mix(in srgb, var(--text-main) 23%, transparent);
+    color: var(--text-main);
+    opacity: 55%;
+}
+
+.triggers > button > span {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.active-btn {
+    background: color-mix(in srgb, var(--tu157) 23%, transparent);
+    color: var(--vetrova);
+}
+
+.section2-hall-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-hall-layout > button {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    background: color-mix(in srgb, var(--tu157) 23%, transparent);
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.20);
+}
+
+.section2-hall-layout > button > img {
+    width: 30px;
+    height: 30px;
+}
+
+.section2-hall-layout > button > span {
+    font-size: 18px;
+    color: var(--vetrova);
+    font-weight: 600;
+}
+
+.section3-hall-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: color-mix(in srgb, var(--vetrova) 12%, transparent);
+    position: relative;
+    min-width: 667px;
+    min-height: 337px;
+}
+
+.corner-frames {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.left-corner-frames {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.left-corner-frames > img {
+    width: 100px;
+    height: 100px;
+}
+
+.right-corner-frames {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.right-corner-frames > img {
+    width: 100px;
+    height: 100px;
+}
+
+.tables {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.table-rectangle-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.table-rectangle-1 > div
